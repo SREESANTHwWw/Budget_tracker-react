@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: #021526;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.main_body{
+  width: 700px;
+  height: 650px;
+  background-color: #03346E;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  
+}
+.budget_text{
+  font-size: 34px;
+  font-weight: 600;
+  font-family:"IBM Plex Mono" ;
+  color: #6EACDA;
+}
+.heading_text{
+  width: 700px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Salary_inputs{
+  width: 500px;
+  height: 170px;
+  background-color: #021526;
+  display: flex;
+  border-radius: 17px;
+  
+
+}
+input{
+  width: 200px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #6EACDA;
+  outline: none;
+  border-style: double;
+  border: none;
+  font-weight: 600;
+  color: #03346E;
+  font-size: 18px;
+
+}
+::placeholder{
+  font-weight: 600;
+  color: #E2E2B6;
+  padding: 20px;
+}
+.salarys_two_column{
+  width: 250px;
+  height: 170px;
+  /* background-color: aliceblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+h1{
+  color: #E2E2B6;
+  font-size: 20px;
+  font-weight: 600;
+}
+.total_text_and_box{
+  width: 250px;
+  height: 170px;
+  /* background-color: rgb(156, 128, 128); */
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center;
+}
+.box_total{
+  width: 200px;
+  height: 150px;
+  /* background-color: #03346E; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+button{
+  width: 100px;
+  height: 50px;
+  border-radius: 14px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.total_sal{
+  width: 250px;
+  height: 120px;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.total_salary_text{
+  color: #E2E2B6;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "IBM Plex Mono";
+}
+.expenses{
+  width: 500px;
+  height: 380px;
+  background-color: #021526;
+  display: flex;
+  border-radius: 17px;
+  flex-direction: column;
+
+}
+
+.exp_text_div{
+  width: 500px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.exp_text{
+  font-size: 25px;
+  color:white
+}
+.item_and_price{
+  width: 500px;
+  height:200px;
+  /* background-color: blue; */
+  display: flex;
+  
+}
+.Items{
+  width: 250px;
+  height: 200px;
+  /* background-color: violet; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+.price_inputs{
+  width: 250px;
+  height: 200px;
+}
+.items_divs{
+  width: 90px;
+  height: 40px;
+}
+.price_rs{
+  width: 240px;
+  border-radius: 10px;
+  border: solid #021526;
+  height: 36px;
+  
+
+}
+.expenses_btn_and_res{
+  width: 500px;
+  height: 70px;
+  /* background-color: turquoise; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.exp_text_last{
+  width: 500px;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: yellow; */
+  align-items: center;
+
+}
+.balance_btn{
+  width: 140px;
+  height: 35px;
+  border-radius: 14px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color:#03346E;
+  color: #E2E2B6;
+}
