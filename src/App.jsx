@@ -17,6 +17,7 @@ const App = () => {
   const clearBtn =()=>{
     setData([])
     setTotalExp()
+    setBalance()
   }
   const [itemspr, setitemspr] = useState(null);
   const [priceTag, setPricetag] = useState(null);
