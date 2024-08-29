@@ -3,25 +3,36 @@
   padding: 0;
   margin: 0;
 }
-body{
+/* body{
   width: 100%;
   height: 100vh;
-  background-color: #021526;
+  background-color:
   display: flex;
   justify-content: center;
   align-items: center;
+  
+} */
+.main_body{
+  width: 100%;
+  height: 100vh;
+  background-color:  #021526;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+ 
+ 
   
 }
-.main_body{
-  width: 700px;
-  height: 650px;
-  background-color: #03346E;
+.main_body_all{
+  width: 100%;
+  height: 700px;
+  background-color:  #1783e1;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
+ flex-direction: row;
   align-items: center;
-  gap: 15px;
-  
+ 
+
 }
 .budget_text{
   font-size: 34px;
@@ -37,16 +48,18 @@ body{
   align-items: center;
 }
 .Salary_inputs{
-  width: 500px;
-  height: 170px;
+  width: 700px;
+  height: 700px;
   background-color: #021526;
   display: flex;
-  border-radius: 17px;
+ justify-content: center;
+  flex-direction: column;
+  align-items: center;
   
 
 }
 input{
-  width: 200px;
+  width: 400px;
   height: 45px;
   border-radius: 10px;
   background-color: #6EACDA;
@@ -56,7 +69,7 @@ input{
   font-weight: 600;
   color: #03346E;
   font-size: 18px;
-
+ 
 }
 ::placeholder{
   font-weight: 600;
@@ -88,7 +101,7 @@ h1{
 }
 .box_total{
   width: 200px;
-  height: 150px;
+  height: 100px;
   /* background-color: #03346E; */
   display: flex;
   justify-content: center;
@@ -107,59 +120,59 @@ button{
 }
 .total_sal{
   width: 250px;
-  height: 120px;
-  /* background-color: aquamarine; */
+  height: 60px;
+  /* background-color: rgb(0, 183, 122); */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .total_salary_text{
-  color: #E2E2B6;
+  color: #01ad34;
   font-size: 32px;
   font-weight: 600;
   font-family: "IBM Plex Mono";
 }
 .expenses{
-  width: 500px;
-  height: 380px;
+  width: 900px;
+  height: 700px;
   background-color: #021526;
   display: flex;
-  border-radius: 17px;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 }
 
 .exp_text_div{
   width: 500px;
-  height: 40px;
+  height: 70px;
   display: flex;
   justify-content: center;
-  align-items: center;
+ 
 }
 .exp_text{
-  font-size: 25px;
-  color:white
+  font-size: 30px;
+  color:white;
+  font-family: "IBM Plex Mono";
 }
 .item_and_price{
   width: 500px;
-  height:200px;
+  height:350px;
   /* background-color: blue; */
-  display: flex;
+  
   
 }
 .Items{
-  width: 250px;
-  height: 200px;
-  /* background-color: violet; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  
   
 
 }
 .price_inputs{
-  width: 250px;
-  height: 200px;
+ width: 400px;
+ height: 200px;
+ /* background-color: #01ad34; */
+
+ 
 }
 .items_divs{
   width: 90px;
@@ -170,6 +183,7 @@ button{
   border-radius: 10px;
   border: solid #021526;
   height: 36px;
+ 
   
 
 }
@@ -183,7 +197,7 @@ button{
 }
 .exp_text_last{
   width: 500px;
-  height: 70px;
+  height: 120px;
   display: flex;
   justify-content: space-around;
   /* background-color: yellow; */
@@ -200,4 +214,75 @@ button{
   cursor: pointer;
   background-color:#03346E;
   color: #E2E2B6;
+}
+.balance_display{
+
+ font-size: 37px;
+ color: red;
+ font-family: "IBM Plex Mono";
+
+}
+.plain_balance_text{
+
+ font-size: 27px;
+ color: #E2E2B6;
+ font-weight: 600;
+ font-family:"IBM Plex Mono" ;
+}
+.balance_div{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.add_items_div{
+  width: 250px;
+  height: 70px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /* background-color: #E2E2B6; */
+  
+}
+.item_shows{
+  width: 400px;
+  height: 160px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+
+
+}
+.item_names{
+  width: 200px;
+  height: 40px;
+  /* background-color: azure; */
+
+}
+.price_number{
+  width: 200px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(132, 0, 101); */
+
+
+}
+.item_price_inputs_{
+  width: 200px;
+  height: 30px;
+}
+.add_btn{
+  width: 100px;
+  height: 30px;
+  border-radius: 14px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
 }
