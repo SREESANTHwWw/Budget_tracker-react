@@ -3,22 +3,12 @@
   padding: 0;
   margin: 0;
 }
-/* body{
-  width: 100%;
-  height: 100vh;
-  background-color:
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-} */
+
 .main_body{
   width: 100%;
   height: 100vh;
   background-color:  #021526;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+
  
  
   
@@ -250,10 +240,12 @@ button{
 .item_shows{
   width: 400px;
   height: 160px;
-  /* background-color: aqua; */
+  background-color: #03346E;
   display: flex;
   justify-content: space-around;
   overflow: hidden;
+  border-radius: 14px;
+  gap: 10px;
 
 
 }
@@ -261,13 +253,15 @@ button{
   width: 200px;
   height: 40px;
   /* background-color: azure; */
+  
 
 }
 .price_number{
-  width: 200px;
+  width: 60px;
   height: 40px;
   display: flex;
   flex-direction: column;
+  
   /* background-color: rgb(132, 0, 101); */
 
 
@@ -285,4 +279,16 @@ button{
   border: none;
   cursor: pointer;
 
+}
+.clear_btn{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 5px;
+  left: 11px;
+}
+.clear_div{
+  width: 50px;
+  height: 50px;
+  /* background-color: rgb(0, 0, 0); */
 }

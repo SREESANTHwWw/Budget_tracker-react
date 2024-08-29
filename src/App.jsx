@@ -14,6 +14,10 @@ const App = () => {
   const addItems = () => {
     setData([...data, { name: itemspr, price: priceTag }]);
   };
+  const clearBtn =()=>{
+    setData([])
+    setTotalExp()
+  }
   const [itemspr, setitemspr] = useState(null);
   const [priceTag, setPricetag] = useState(null);
 
@@ -119,7 +123,15 @@ const App = () => {
                 {data.map((eve) => (
                   <h1 className="item_price_inputs_">{eve.price}</h1>
                 ))}
+              
               </div>
+              <div className="clear_div">
+            
+                  <button className="clear_btn" onClick={clearBtn}>X</button>
+            
+              </div>
+             
+
             </div>
           </div>
 
